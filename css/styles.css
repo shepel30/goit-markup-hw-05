@@ -507,6 +507,7 @@ cursor: pointer;
 .icon-subscribe {
   margin-left: 16px;
 }
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -611,6 +612,7 @@ height: 56px;
 cursor: pointer;
 border: none;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-label {
   display: block;
@@ -636,7 +638,7 @@ margin-bottom: 4px;
  
 }
 .modal-field-checkbox {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .modal-textarea {
   width: 100%;
