@@ -633,8 +633,11 @@ margin-bottom: 4px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
-.modal-field-checkbox {
+.modal-field-textarea {
   margin-bottom: 16px;
+}
+.modal-field-checkbox {
+  margin-bottom: 24px; 
 }
 .modal-textarea {
   width: 100%;
